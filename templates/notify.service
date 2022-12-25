@@ -1,0 +1,13 @@
+[Unit]
+Description=#service-description#
+After=#runs-after#
+
+[Service]
+Type=notify
+ExecStartPre=#exec-start-pre#
+ExecStart=#exec-start#
+ExecReload=#exec-reload#
+ExecStop=#exec-stop#
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+[Unit]
+Description=Run foo weekly
+
+[Timer]
+OnCalendar=#on-calendar#
+ExecStartPre=#exec-start-pre#
+ExecStart=#exec-start#
+ExecReload=#exec-reload#
+ExecStop=#exec-stop#
+Persistent=#persistent#
+
+
+[Install]
+WantedBy=#wanted-by#

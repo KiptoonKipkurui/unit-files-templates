@@ -1,0 +1,13 @@
+[Unit]
+Description=#description#
+
+[Timer]
+OnBootSec=#on-boot-sec#
+OnUnitActiveSec=#on-unit-active-sec#
+ExecStartPre=#exec-start-pre#
+ExecStart=#exec-start#
+ExecReload=#exec-reload#
+ExecStop=#exec-stop#
+
+[Install]
+WantedBy=#wanted-by#
